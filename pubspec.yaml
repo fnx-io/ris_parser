@@ -1,8 +1,8 @@
 name: ris_parser
-description: A starting point for Dart libraries or applications.
+description: Parser for RIS file format.
 # version: 1.0.0
-# homepage: https://www.example.com
-# author: dafesimonek <email@example.com>
+# homepage: https://github.com/fnx-io/ris_parser
+# author: Dafe Simonek <dafesimonek@gmail.com>
 
 environment:
   sdk: '>=2.0.0 <3.0.0'
