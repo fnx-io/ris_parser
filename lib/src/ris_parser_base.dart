@@ -49,7 +49,7 @@ RisEntry _parseLine(String line) {
       : null;
 }
 
-RegExp _risLine = RegExp('^([A-Z][A-Z0-9]) *- *(.*)');
+RegExp _risLine = new RegExp('^([A-Z][A-Z0-9]) *- *(.*)');
 
 class RisRecord {
   final Iterable<RisEntry> entries;
@@ -92,7 +92,7 @@ class RisEntry {
 
 }
 
-const Map<String, String> risTags = {
+const Map<String, String> risTags = const {
   "TY": "Type of reference",
   "A1": "First Author",
   "A2": "Secondary Author",
@@ -175,7 +175,7 @@ const Map<String, String> risTags = {
   "ER": "End of Reference",
 };
 
-const Map<String, String> risAbbreviations = {
+const Map<String, String> risAbbreviations = const {
   "ABST": "Abstract",
   "ADVS": "Audiovisual material",
   "AGGR": "Aggregated Database",

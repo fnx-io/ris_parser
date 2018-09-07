@@ -1,14 +1,16 @@
 name: ris_parser
 description: Parser for RIS file format.
-# version: 1.0.0
-# homepage: https://github.com/fnx-io/ris_parser
-# author: Dafe Simonek <dafesimonek@gmail.com>
+version: 1.0.0
+homepage: https://github.com/fnx-io/ris_parser
+authors:
+  - Dafe Simonek <dafesimonek@gmail.com>
+  - Tomas Zverina <tomucha@gmail.com>
 
 environment:
-  sdk: '>=2.0.0 <3.0.0'
+  sdk: '>=1.23.0 <3.0.0'
 
 #dependencies:
 #  path: ^1.4.1
 
 dev_dependencies:
-  test: ^1.0.0
+  test: any
